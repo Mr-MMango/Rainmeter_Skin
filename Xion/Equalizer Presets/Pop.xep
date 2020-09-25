@@ -1,0 +1,3 @@
+<Xion>
+	<Preset Band32="44" Band60="46" Band125="50" Band250="59" Band500="67" Band1000="67" Band2000="59" Band4000="50" Band8000="46" Band16000="44" />
+</Xion>

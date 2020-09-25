@@ -1,0 +1,21 @@
+[playlist]
+numberofentries=6
+File1=http://38.99.68.236:8045
+Title1=(#1 - 116/500) 1.FM - Otto's Baroque Musick
+Length1=-1
+File2=http://72.13.81.178:8045
+Title2=(#2 - 233/1000) 1.FM - Otto's Baroque Musick
+Length2=-1
+File3=http://64.62.194.11:8045
+Title3=(#3 - 71/300) 1.FM - Otto's Baroque Musick
+Length3=-1
+File4=http://64.71.144.178:8045
+Title4=(#4 - 166/700) 1.FM - Otto's Baroque Musick
+Length4=-1
+File5=http://38.99.107.34:8045
+Title5=(#5 - 17/50) 1.FM - Otto's Baroque Musick
+Length5=-1
+File6=http://66.220.3.52:8045
+Title6=(#6 - 299/300) 1.FM - Otto's Baroque Musick
+Length6=-1
+Version=2

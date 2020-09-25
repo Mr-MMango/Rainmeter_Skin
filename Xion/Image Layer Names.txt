@@ -1,0 +1,129 @@
+For the VERY latest updates, please visit - http://xion.r2.com.au/index.php?page=layerref
+
+Button Objects
+==============
+[Keyword]       		[Alt] 		[Version]		[Function/Effect]                                                                                                         		
+play            		-     		1.0.56   		Start playing the current song
+pause           		-     		1.0.56   		Toggle playing the current song
+stop            		-     		1.0.56   		Stop playing the current song
+next            		-     		1.0.56   		Moves to the next track in the playlist
+previous        		-     		1.0.56   		Moves to the previous track in the playlist
+random          		-     		1.0.56   		Toggles Random play mode. The next song played from the playlist won't be in sequencial order
+repeat          		-     		1.0.56   		Toggle Repeat play mode. The mode will repeat the entire playlist when it has played every song once.
+playlist        		-     		1.0.56   		Toggle displaying the Playlist window (if the plugin is enabled)
+equalizer       		-     		1.0.56   		Toggle displaying the Equalizer window
+library         		-     		1.0.82   		Toggle showing the Library window (if the plugin is enabled)
+viswindow       		-     		1.0.56   		Toggle showing the Visualisation window (if the plugin is enabled)
+close           		-     		1.0.56   		Close Xion completely
+minimize        		-     		1.0.56   		Hide/Minimize Xion. Can be retrieved by right clicking on the Tray icon
+open            		-     		1.0.56   		Open the Add Files window from any attached Playlist windows
+mute            		-     		1.0.56   		Mutes the current playback volume, but continues playing if already doing so
+volume_increase 		volinc		1.0.56   		Increases the volume in increments of about 1.5
+volume_decrease 		voldec		1.0.56   		Decreases the volume in increments of about 1.5
+balance_right   		balrgt		1.0.99   		Shifts the Balance to the right in increments of about 1.5
+balance_left    		ballft		1.0.99   		Shifts the Balance to the left in increments of about 1.5
+progress_forward		prgfwd		1.0.99   		Moves the song progress forward by 5 seconds
+progress_rewind 		prgrew		1.0.99   		Moves the song progress backwards by 5 seconds
+loadinterface(x)		-     		1.0.56   		Loads an interface. x = name of the interface to load (add dontreposition if you don't want it to reposition the new skin)
+sliderbit       		-     		1.0.56   		Place this layer above the scrollbar you want it associated with
+button          		-     		1.0.56   		Act like a button, but has no pre-determined function
+
+
+Slider Objects
+==============
+[Keyword]      		[Alt]		[Version]		[Function/Effect]                                                                                                                                		
+progresslr     		-    		1.0.56   		Slider which represents the progress through the current song, starting at the left and finishing at the right
+volumelr       		-    		1.0.56   		Slider which represents the volume that songs are played at, starting at the left and finishing at the right
+balancelr      		-    		1.0.56   		Slider which represents the speaker balance that songs are played with, starting at the left and finishing at the right
+netbufferlr    		-    		1.0.82   		Slider which represents the current Net Buffer value. Users are unable to change this slider. Values start at the left and finish at the right
+lvumeterlr     		-    		1.0.82   		Slider which represents the Volume of the left speaker. Users are unable to change this slider. Values start at the left and finish at the right
+rvumeterlr     		-    		1.0.82   		Slider which represents the Volume of the right speaker. Users are unable to change this slider. Values start at the left and finish at the right
+vumeterbasslr  		-    		1.0.84   		Slider which represents the Bass. Users are unable to change this slider. Values start at the left and finish at the right
+vumetermidlr   		-    		1.0.84   		Slider which represents the Mid. Users are unable to change this slider. Values start at the left and finish at the right
+vumetertreblelr		-    		1.0.84   		Slider which represents the Treble. Users are unable to change this slider. Values start at the left and finish at the right
+
+
+Action Commands
+===============
+[Keyword]           		[Alt]   		[Version]		[Function/Effect]                                                                                                                                                                                                                   		
+moveable            		-       		1.0.56   		Interface window can be moved by clicking and dragging this layer
+passthrough         		-       		1.0.56   		Ignore mouse events, and don't block them, but allow them to continue to the layer below this one
+tooltip(x)          		tt(x)   		1.0.82   		Allows you to specify a custom Tooltip for this layer. Replace x with the text of your choice
+snaprectangle       		-       		1.0.82   		Allows you to specify a snapping rectangle for snapping the edges of the interface window to the screen. This can be useful if you've used a shadow and would prefer Xion to snap on another part, other than an overhanging shadow.
+triggeron_songchange		trigonsc		1.0.96   		Will trigger this object when the song changes, as though you clicked on it. Can be used on Animation layer set type 1 and 2 or on button objects or with modify(x)
+
+
+Text Objects
+============
+[Keyword]		[Alt]		[Version]		[Function/Effect]                                                                                                                                                                     		
+time     		-    		1.0.56   		Displays the current elapsed/remaining time of the current song. In order to use, create a shape and fill it with a colour that you want to use as the foreground colour for the text.
+track    		-    		1.0.56   		Displays the current song's Title
+frequency		-    		1.0.56   		Frequency (kHz) display
+bitrate  		-    		1.0.56   		Bitrate (kbps) display
+
+
+Special Render Objects
+======================
+[Keyword]      		[Alt]		[Version]		[Function/Effect]                                                                                                                                                                                                                                            		
+preview        		-    		1.0.56   		This layer will be used as a preview of your skin for the Skin Browser, instead of generating one on the fly. Optimal size is 128 x 128. Make sure you set this layer invisible, otherwise it will show up in your final skin! (Unless that's what you want!)
+visualisation  		-    		1.0.56   		Visualisation will be rendered here when a Visualisation Plugin is active
+trans_volumel  		-    		1.0.56   		Modifies the transparency of a layer based on the left speaker volume
+trans_volumer  		-    		1.0.56   		Modifies the transparency of a layer based on the right speaker volume
+trans_volumeb  		-    		1.0.96   		Modifies the transparency of a layer based on the Bass volume
+trans_volumem  		-    		1.0.96   		Modifies the transparency of a layer based on the Mid volume
+trans_volumet  		-    		1.0.96   		Modifies the transparency of a layer based on the Treble volume
+trans_netbuffer		-    		1.0.56   		Modifies the transparency of a layer based on the filled net buffer (used for internet radio to display Quality Of Service)
+
+
+Object functions
+================
+[Keyword]            		[Alt]   		[Version]		[Function/Effect]                                                                                                                                         		
+id(x)                		-       		1.0.56   		Replace x with the ID for this layer/object. Used with Layer Operators and other functions that require id's of layers
+modify(x)            		-       		1.0.56   		Replace x with the ID to modify. Specify this when using functions that operate on other layers. Can use comma(,) for multiple IDs as of (version: 1.0.82)
+action_anim_play     		acanplay		1.0.56   		Begins playing an animation. Use modify(x) before using this.
+action_anim_stop     		acanstop		1.0.56   		Stops an animation from playing. Use modify(x) before using this.
+action_anim_forward  		acanfwd 		1.0.56   		Changes the animation's playing direction to down the list. Use modify(x) before using this.
+action_anim_reverse  		acanrev 		1.0.56   		Changes the animation's playing direction to up the list. Use modify(x) before using this.
+action_anim_switch   		acanswch		1.0.57   		Changes the animation's playing direction to the opposite of what it is when the action is executed. Use modify(x) before using this.
+action_anim_reset    		acanrset		1.0.96   		Resets the Animation back to the first frame. Useful to reset Animation Types 1 and 2. Use modify(x) before using this.
+action_layer_hide    		aclahide		1.0.56   		Hides the specified layer. Use modify(x) before using this.
+action_layer_show    		aclashow		1.0.56   		Shows the specified layer. Use modify(x) before using this.
+action_layer_switch  		aclaswch		1.0.56   		Shows next specified layer, hides others, order is x, then y, then z, then x... Use modify(x,y,z) before using this.
+action_object_trigger		acobtrig		1.0.96   		Allows you to trigger a Button object as though someone had clicked on it. Use modify(x) before using this.
+action_app_close     		acapclse		1.0.56   		Acts like a close button, but can be used within animation frames and other buttons.
+action_load_interface		acloint 		1.0.83   		Loads the Interface as specified in modify().
+save_state           		svst    		1.0.82   		Signals to Xion that the visible state of the layer with the keyword should be saved between skin loads. Useful for creating configurable visuals.
+
+
+Indicator Objects
+=================
+[Keyword]     		[Alt]		[Version]		[Function/Effect]                                                                     		
+indi_pause    		-    		1.0.56   		Paused Indicator. Will be visible if player is paused
+indi_stop     		-    		1.0.56   		Stopped Indicator. Will be visible if player is stopped
+indi_play     		-    		1.0.56   		Playing Indicator. Will be visible if player is playing
+indi_random   		-    		1.0.56   		Random Indicator. Will be visible if player is in random mode
+indi_repeat   		-    		1.0.56   		Repeat Indicator. Will be visible if player is in repeat mode
+indi_stereo   		-    		1.0.56   		Stereo Indicator. Will be visible if current song is in stereo mode
+indi_mono     		-    		1.0.56   		Mono Indicator. Will be visible if current song is in mono mode
+indi_active   		-    		1.0.56   		Active window Indicator. Will be visible when the interface is the active window
+indi_inactive 		-    		1.0.56   		InActive window Indicator. Will be visible when the interface is not the active window
+indi_mute     		-    		1.0.56   		Mute Indicator. Will be visible if player is muted
+indi_web      		-    		1.0.56   		Web Indicator. Will be visible if current song is streaming from the Internet
+indi_local    		-    		1.0.56   		Local Indicator. Will be visible if current song is streaming locally
+indi_cd       		-    		1.0.82   		CD Indicator. Will be visible if current song is streaming from a CD
+indi_equalizer		-    		1.0.82   		Equalizer Indicator. Will be visible if the Equalizer has been turned On
+
+
+Animation Sets
+==============
+[Keyword]   		[Alt]		[Version]		[Function/Effect]                                                                                                                                                                                                                                                                                                      		
+animation   		-    		1.0.56   		Give this name to a layer set to have it act as an animation
+animtype(x) 		-    		1.0.56   		Type of animation.
+paused      		-    		1.0.56   		Will be paused at the start until another event, such as a click, triggers it. NOTE: Frames execute their actions first and then pause is applied, so if you pause the layer set at the beginning, the first frame will still execute any actions. You can always insert a blank frame if you do not want this to occur
+direction(x)		-    		1.0.56   		Direction to play animation. only 2 values, 0 = normal or down the list, and 1 = reverse, or up the list.
+delay(x)    		-    		1.0.56   		Delay between each frame(1 = 10ms). If this is specified on the group main item, it specifies time for each frame. If you specify on a frame its per frame
+fadebetween 		-    		1.0.56   		Will fade smoothly between frames of an animation set. If specified on a single frame, will just do it for when that frame is shown/hidden
+fadein      		-    		1.0.56   		Will fade all frames in if on an animation set. If specified on a single frame, will just do it for when that frame is shown
+fadeout     		-    		1.0.56   		Will fade all frames out if on an animation set. If specified on a single frame, will just do it for when that frame is hidden
+
+
