@@ -1,0 +1,21 @@
+[playlist]
+numberofentries=6
+File1=http://66.220.3.50:9010
+Title1=(#1 - 81/1000) 1.FM - Bay Smooth Jazz
+Length1=-1
+File2=http://66.220.3.52:9010
+Title2=(#2 - 86/1000) 1.FM - Bay Smooth Jazz
+Length2=-1
+File3=http://209.51.161.54:9010
+Title3=(#3 - 32/300) 1.FM - Bay Smooth Jazz
+Length3=-1
+File4=http://64.62.194.11:9010
+Title4=(#4 - 20/100) 1.FM - Bay Smooth Jazz
+Length4=-1
+File5=http://38.99.107.34:9010
+Title5=(#5 - 23/50) 1.FM - Bay Smooth Jazz
+Length5=-1
+File6=http://216.218.159.151:9010
+Title6=(#6 - 197/200) 1.FM - Bay Smooth Jazz
+Length6=-1
+Version=2

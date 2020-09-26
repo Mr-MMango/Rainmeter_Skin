@@ -1,0 +1,58 @@
+<Xion>
+	<Core BasePath="C:\Xion\">
+		<Settings TimeDisplayMode="elapsed" LastFile="D:\mass2\armin_van_buuren_-_a_state_of_trance_episode_558_-_2012-04-26\Armin van Buuren presents - A State of Trance Episode 558.mp3" LastPlayPosition="6085019" MixRate="0" Driver="0" Output="0" SpeakerMode="0" BufferSize="0" Volume="0.98" Balance="0.00">
+			<Components>
+				<shimmerinterface Load="true" />
+				<simpleplaylist Load="true" />
+				<simplevis Load="true" />
+				<simplelibrary Load="false" />
+			</Components>
+			<Core Autoplay="true" OnTop="false" TrackTitleFormat="%IFV1(%ITRM(%ARTI),%ITRM(%ARTI))%IFV1(%ITRM(%TITL),%IFV1(%ITRM(%ARTI), - ))%IFV1(%ITRM(%TITL),%ITRM(%TITL))" />
+			<Equalizer LastPreset="Manual" On="false" Band32="65" Band60="62" Band125="61" Band250="60" Band500="56" Band1000="54" Band2000="51" Band4000="52" Band8000="58" Band16000="65" />
+			<HotKeys Count="19">
+				<0 Action="play" Destination="core-player" Enabled="true" Modifier="3" VirtualKey="45" />
+				<1 Action="pause" Destination="core-player" Enabled="true" Modifier="3" VirtualKey="36" />
+				<2 Action="stop" Destination="core-player" Enabled="false" Modifier="3" VirtualKey="35" />
+				<3 Action="mutetoggle" Destination="core-player" Enabled="true" Modifier="3" VirtualKey="105" />
+				<4 Action="toggleequalizer" Destination="core-player" Enabled="false" Modifier="3" VirtualKey="69" />
+				<5 Action="volumeincrease" Destination="core-player" Enabled="true" Modifier="3" VirtualKey="104" />
+				<6 Action="volumedecrease" Destination="core-player" Enabled="true" Modifier="3" VirtualKey="98" />
+				<7 Action="balanceright" Destination="core-player" Enabled="false" Modifier="3" VirtualKey="190" />
+				<8 Action="balanceleft" Destination="core-player" Enabled="false" Modifier="3" VirtualKey="188" />
+				<9 Action="progressforward" Destination="core-player" Enabled="true" Modifier="3" VirtualKey="102" />
+				<10 Action="progressrewind" Destination="core-player" Enabled="true" Modifier="3" VirtualKey="100" />
+				<11 Action="prev" Destination="simpleplaylist" Enabled="true" Modifier="3" VirtualKey="97" />
+				<12 Action="next" Destination="simpleplaylist" Enabled="true" Modifier="3" VirtualKey="99" />
+				<13 Action="randomtoggle" Destination="simpleplaylist" Enabled="false" Modifier="3" VirtualKey="103" />
+				<14 Action="repeattoggle" Destination="simpleplaylist" Enabled="false" Modifier="3" VirtualKey="111" />
+				<15 Action="removecurrentsong" Destination="simpleplaylist" Enabled="false" Modifier="3" VirtualKey="109" />
+				<16 Action="toggleshowhide" Destination="simpleplaylist" Enabled="true" Modifier="3" VirtualKey="103" />
+				<17 Action="open" Destination="simpleplaylist" Enabled="true" Modifier="3" VirtualKey="76" />
+				<18 Action="toggleshowhide" Destination="shimmerinterface" Enabled="true" Modifier="3" VirtualKey="101" />
+			</HotKeys>
+		</Settings>
+	</Core>
+	<Components>
+		<simpleplaylist>
+			<Settings RepeatPlaylist="true" RandomPlaylist="false" LastPlaylist="D:\3332446\Xion\qweq.m3u" ChangesMade="1" LastItemIndex="618" LastTopIndex="617" LastBrowseDirPath="D:\Armin_Van_Buuren_-_A_State_of_Trance_550_Live_(DI.FM)_01-03-2012-TT" DisplayItemNumbers="1" RecentPlaylist00="D:\3332446\Xion\qweq.m3u" RecentPlaylist01="D:\3332446\Xion\MOA PLAYLIST.m3u" RecentPlaylist02="" RecentPlaylist03="">
+				<Window visible="false" width="414" height="324" state="0" x="0" y="432" />
+			</Settings>
+		</simpleplaylist>
+		<simplelibrary>
+			<Settings RepeatLibrary="false" RandomLibrary="false">
+				<Window visible="false" width="414" height="334" state="0" x="397" y="334" />
+			</Settings>
+		</simplelibrary>
+		<simplevis>
+			<Settings MotionBlur="true" RandomColor="false" Scope="dot" OnTop="true" BlurAmount="56" Zoomer="false">
+				<Window visible="false" state="0" x="33" y="599" width="125" height="114" />
+			</Settings>
+		</simplevis>
+		<shimmerinterface>
+			<Settings>
+				<Window visible="true" state="0" x="243" y="113" width="542" height="542" />
+				<Interface filename="D:\3332446\Xion\Interfaces\testing2.psd" transparency="255" />
+			</Settings>
+		</shimmerinterface>
+	</Components>
+</Xion>

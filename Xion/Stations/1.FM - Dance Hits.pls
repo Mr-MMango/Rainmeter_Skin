@@ -1,0 +1,24 @@
+[playlist]
+numberofentries=7
+File1=http://64.71.144.178:8050
+Title1=(#1 - 90/800) 1.FM - Dance Hits
+Length1=-1
+File2=http://64.62.194.11:8050
+Title2=(#2 - 123/1000) 1.FM - Dance Hits
+Length2=-1
+File3=http://209.51.161.54:8050
+Title3=(#3 - 39/300) 1.FM - Dance Hits
+Length3=-1
+File4=http://38.99.68.236:8050
+Title4=(#4 - 14/100) 1.FM - Dance Hits
+Length4=-1
+File5=http://66.220.3.52:8050
+Title5=(#5 - 14/100) 1.FM - Dance Hits
+Length5=-1
+File6=http://64.71.145.133:8050
+Title6=(#6 - 163/200) 1.FM - Dance Hits
+Length6=-1
+File7=http://64.71.145.130:8050
+Title7=(#7 - 174/200) 1.FM - Dance Hits
+Length7=-1
+Version=2
