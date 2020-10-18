@@ -1,0 +1,60 @@
+
+Size & Position::
+-----------------------
+
+Goto THEMENAME\Dock\ and Open "Dock" Text File and edit the values of X,Y,W & H according to your Desktop Resolution.
+Remember the following things;
+
+X = Horizontal Position
+
+Y = Vertical Position
+
+W = Width Size
+
+H = Height Size
+
+Using these, you can reposition any Dock settings given in the Theme. 
+
+========================================================================================
+
+Mapping the Icons::
+----------------------------
+
+You can Customize the Dock icons to open any application you like. For Example, Goto;
+"My Documents\Rainmeter\Skins\", you will see "THEMENAME\Dock\Dock.ini", Dock.ini is a Text file where Coding is Done.
+In that file, you goto the following area;
+
+Meter=IMAGE
+X=400
+Y=40
+w=40
+h=40
+ImageName=Browser.png
+AntiAlias=1
+LeftMouseDownAction=!execute ["www.google.com"]
+
+Here, i have given "www.google.com" as general for all users. You can change that to your favourite browser.
+I use Firefox, so i change that location into the firefox.exe file location in my system;
+
+LeftMouseDownAction=!execute ["C:\Program Files\Mozilla Firefox\firefox.exe"]
+
+Check in your system for your specific application exe file location and replace as mentioned above.  :-)
+
+========================================================================================
+
+Launching Windows Special Folders::
+------------------------------------------------------    
+
+     Windows Media Player = "%ProgramFiles%\Windows Media Player\wmplayer.exe" /prefetch:1
+    Administrative Tools "::{D20EA4E1-3957-11d2-A40B-0C5020524153}"
+    Control Panel "::{21EC2020-3AEA-1069-A2DD-08002b30309d}"
+    Fonts "::{D20EA4E1-3957-11d2-A40B-0C5020524152}"
+    My Computer "::{20D04FE0-3AEA-1069-A2D8-08002B30309D}"
+    My Documents "::{450D8FBA-AD25-11D0-98A8-0800361B1103}"
+    Printers and Faxes "::{2227A280-3AEA-1069-A2DE-08002B30309D}"
+    Programs Folder "::{7be9d83c-a729-4d97-b5a7-1b7313c39e0a}"
+    Recycle Bin "::{645FF040-5081-101B-9F08-00AA002F954E}"
+    Scheduled Tasks "::{D6277990-4C6A-11CF-8D87-00AA0060F5BF}"
+    Start Menu "::{48e7caab-b918-4e58-a94d-505519c795dc}"
+
+========================================================================================

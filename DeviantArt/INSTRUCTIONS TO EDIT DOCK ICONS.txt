@@ -1,0 +1,15 @@
+
+
+
+Goto DeviantArt\Dock\ and Open "Dock" Text File and edit the values of X,Y,W & H according to your Desktop Resolution.
+Remember the following things;
+
+X = Horizontal Position
+
+Y = Vertical Position
+
+W = Width Size
+
+H = Height Size
+
+Using these, you can reposition any Dock settings given in the Theme. :-)

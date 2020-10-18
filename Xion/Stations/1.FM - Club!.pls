@@ -1,0 +1,21 @@
+[playlist]
+numberofentries=6
+File1=http://64.71.145.133:8060
+Title1=(#1 - 117/600) 1.FM - Club!
+Length1=-1
+File2=http://64.62.253.68:8060
+Title2=(#2 - 10/50) 1.FM - Club!
+Length2=-1
+File3=http://209.51.161.54:8060
+Title3=(#3 - 48/200) 1.FM - Club!
+Length3=-1
+File4=http://64.62.252.132:8060
+Title4=(#4 - 138/400) 1.FM - Club!
+Length4=-1
+File5=http://38.99.107.34:8060
+Title5=(#5 - 18/50) 1.FM - Club!
+Length5=-1
+File6=http://66.220.3.50:8060
+Title6=(#6 - 390/600) 1.FM - Club!
+Length6=-1
+Version=2

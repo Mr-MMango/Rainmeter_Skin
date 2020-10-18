@@ -1,0 +1,2 @@
+This requires SpeedFan to be running. Once you have that open, check the temperatures that SpeedFan is returning and what it attributes them to, if need be, you may have to change the SpeedFanNumber to pick up the correct value (Rainmeter considers the first value picked up from SpeedFan to be 0, followed by 1, 2 etc).
+If you want to change what is returned in the Temperature Config, you can change the label names at the bottom and the numbers picked up and used by Rainmeter from SpeedFan at the top.
