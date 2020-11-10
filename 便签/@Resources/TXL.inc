@@ -5,12 +5,12 @@ Dh=掳脡脰梅
 Email=xxxx@126.com
 
 
-1=Java Pta 大作业
+1=Java Done
 2=数逻	lab9 实验报告
-3=Done
+3=体系 Done
 4=11.27 大物期中
-5=Done
-6=12月底 智能app
+5=12月底 智能APP
+6=Done
 7=Done
 8=早上好(*^▽^*)今天请加油！
 9=背考研单词
