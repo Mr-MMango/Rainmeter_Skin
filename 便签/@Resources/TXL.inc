@@ -5,10 +5,10 @@ Dh=掳脡脰梅
 Email=xxxx@126.com
 
 
-1=Java Done
+1=11.19 Java 期中
 2=数逻	lab9 实验报告
-3=体系 Done
-4=11.27 大物期中
+3=体系 Lab7Cache
+4=11.17 大物期中
 5=12月底 智能APP
 6=Done
 7=Done
